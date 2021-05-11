@@ -1,0 +1,159 @@
+.row{
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f6f9fc;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.img {
+  width: 60%;
+}
+
+.img_container{
+  text-align: center;
+}
+
+.icon_display{
+  padding: 5%;
+  text-align: center;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-left:5%;
+}
+
+  @media only screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
+    .img {
+      width: 50%;
+    }
+  }
+
+  .text_bar{
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 95px;
+    height: 3px;
+    background: #04657e;
+    background: linear-gradient(90deg, #04657e 0%, #042C5C 35%,#082C5C 100%);
+}
+
+.single-footer-widget h3 {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+ul.list {
+  list-style-type: none;
+  padding: 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+} 
+
+.single_footer_widget ul.list li a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00);
+  width: 10px;
+  height: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .6s ease;
+}
+
+.input {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  border:1px solid #00679A;
+}
+
+.input:focus {
+  outline: 0;
+  border:1px solid #00679A;
+}
+
+.button_text {
+
+  background: linear-gradient(
+    135deg
+    , rgba(0,103,154,1) 0%, rgba(0,47,95,1) 100%);
+  transition: all ease-in-out .3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  width: 75px;
+  height: 25px;
+  display: inline-block;
+  padding: 10px 5px;
+  color: #fff!important;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  align-self: right;
+}
+
+.button_cool{
+
+  color: #fff;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg
+    , rgba(0,103,154,1) 0%, rgba(0,47,95,1) 100%) center / 100% 100% no-repeat,
+    linear-gradient(#fff, #fff) center / 100% 100% no-repeat;
+  transition: background-size .6s ease;
+  border: none;
+  position: absolute;
+  align-self: right;
+  margin-left: -60px;
+
+}
+
+.form{
+
+  position: relative;
+  margin-top: 30px;
+
+}
+
+ .button_cool:hover{
+  background-position: center, center;
+  background-size: 0% 100%, 100% 100%;
+  color: rgba(0,47,95,1);
+  border:1px solid #00679A;
+} 
+
+.button_container {
+  padding-top: 5px;
+}

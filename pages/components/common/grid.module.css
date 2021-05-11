@@ -1,0 +1,121 @@
+.carousel_element {
+
+  width:100%;
+  height:500px;
+  border-radius: 16px;
+  background-size: cover;
+  background-blend-mode: saturation;
+  background-color: rgba(0,0,0,.5);
+
+}
+
+.carousel_element_text_container {
+
+  height:500px;
+  padding-top: 80%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+}
+
+.carousel_element_text {
+
+  text-align: center!important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.carousel_element_text .span {
+
+  color: #fff;
+
+}
+
+.carousel_container {
+
+  background-color: #f6f3f3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.carousel_element_text .h3 {
+
+  text-align: center!important;
+
+}
+
+.button_text {
+
+  
+  background: linear-gradient(
+    135deg
+    , rgba(0,103,154,1) 0%, rgba(0,47,95,1) 100%);
+  transition: all ease-in-out .3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  padding: 10px 5px;
+  color: #fff!important;
+  border: none;
+
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel_element {
+
+    width:100%;
+    height: 200px;
+    border-radius: 16px;
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-color: rgba(0,0,0,.5);
+  
+  }
+
+  .carousel_element_text_container {
+
+    height:200px;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  
+  }
+
+  .button_text {
+
+  
+    background: linear-gradient(
+      135deg
+      , rgba(0,103,154,1) 0%, rgba(0,47,95,1) 100%);
+    transition: all ease-in-out .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    width: 75px;
+    height: 30px;
+    display: inline-block;
+    padding: 8px 2px;
+    color: #fff!important;
+    border: none;
+  
+  }
+}

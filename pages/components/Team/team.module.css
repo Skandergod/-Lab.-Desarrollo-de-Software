@@ -1,0 +1,94 @@
+.team_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.person{
+    width: 100%;
+    padding: 0 15px;
+}
+.img{
+    border-radius: 8px;
+    width: 100%; overflow: hidden;
+    height: 450px;
+    position: relative;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+}
+.img img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 110%;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 5px 0;
+    line-height: 1.1;
+}
+.position{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.socialList{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.socialList li{
+    margin: 5px;
+}
+.socialList a{
+    display: flex;
+    width: 40px; height: 40px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbcbcb;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+/*
+
+  Responsive
+
+*/
+@media (min-width: 600px) {
+    .person{
+        width: 50%;
+    }
+    .img{
+        height: 450px;
+    }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+    .person{
+        width: 25%;
+    }
+    .img{
+        height: 350px;
+    }
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+@media (min-width: 1600px) {
+
+}
